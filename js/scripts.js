@@ -1,15 +1,15 @@
 // Back-end
 
 function beepBoop(userInput) {
-  var valueString = userInput.toString();
-  for (var i = 0; i < userInput; i++)
-    if (valueString.includes("3")) {
+  var result = []
+  for (var i = 0; i <= userInput; i++)
+  if (i.toString().includes("3")){
       console.log("I'm sorry, Dave. I'm afraid I can't do that.")
     }
-    else if (valueString.includes("2")) {
+    else if (i.toString().includes("2")) {
       console.log("Boop!")
     }
-    else if (valueString.includes("1")) {
+    else if (i.toString().includes("1")) {
       console.log("Beep!")
     }
     else {
