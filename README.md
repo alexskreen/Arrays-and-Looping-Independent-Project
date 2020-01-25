@@ -1,48 +1,60 @@
-# _{Application Name}_
+# _Beep Boop!_
 
-#### _{Brief description of application}, {Date of current version}_
+#### By _**Alex Skreen**_
 
-#### By _**{List of contributors}**_
+## _You can check out the program here: alexskreen.github.io/JavaScript-jQuery-Independent-Project/_
 
-## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+#### _This program asks the user to enter a number, then gives them a response to decode. 1/24/2020_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Open web browser_
+* _Navigate to https://github.com/alexskreen/Arrays-and-Looping-Independent-Project_
+* _Click the green "clone or download" button_
+* _Open terminal_
+* _Navigate to desktop by typing "cd .." into terminal, then typing "cd desktop"_
+* _Clone directory to desktop by typing "git clone https://github.com/alexskreen/Arrays-and-Looping-Independent-Project"_
+* _Type "cd beep-boop" into terminal_
+* _Type "code ." into terminal. This will open VS code and show you the files located in the cloned directory_
+* _Type "open index.html" into terminal. This will open the website_
+* _Fill out user form box, and click the submit button_
+* _Get your result!_
 
 ## Behavioral Driven Developement Specs 
 
 | Behavior       | Input    | Output     |
 | :------------- | :----------: | -----------: |
-| The program returns an error if the user submits a non number | Hello | Please enter a number! |
 |  The program returns a range of numbers from 0 to the number inputted by user | 5 | 0, 1, 2, 3, 4, 5  |
 | Numbers containing "1" will return "Beep!" | 1 | Beep! |
 | Numbers containing "2" will return "Boop!"   | 1 | Boop! |
 | Numbers containing "3" will return "I'm sorry, I can't do that!"   | 3 | I'm sorry, I can't do that! |
 
-
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs at this time. If you find one please contact me using the information below._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Alex Skreen_
+_skreenalex@gmail.com_
+_503-503-5035_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _terminal_
+* _Visual Studio Code_
+* _Git_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
+* _Chrome_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*licensed under the MIT licensing act*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Alex Skreen_**
+

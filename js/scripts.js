@@ -2,7 +2,7 @@
 
 function beepBoop(userInput) {
   var results = []
-  for (var i = 0; i <= userInput; i++)
+  for (var i = 1; i <= userInput; i++)
     if (i.toString().includes("3")) {
       // console.log("I'm sorry, Dave. I'm afraid I can't do that.")
       results.push("I'm sorry, Dave. I'm afraid I can't do that");
