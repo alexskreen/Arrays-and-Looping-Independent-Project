@@ -2,7 +2,7 @@
 
 #### By _**Alex Skreen**_
 
-## _You can check out the program here: alexskreen.github.io/JavaScript-jQuery-Independent-Project/_
+## _You can check out the program here: https://alexskreen.github.io/Arrays-and-Looping-Independent-Project/_
 
 
 #### _This program asks the user to enter a number, then gives them a response to decode. 1/24/2020_
