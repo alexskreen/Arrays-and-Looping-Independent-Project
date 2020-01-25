@@ -5,7 +5,8 @@ function beepBoop(userInput) {
   for (var i = 0; i <= userInput; i++)
     if (i.toString().includes("3")) {
       // console.log("I'm sorry, Dave. I'm afraid I can't do that.")
-      results.push("I'm sorry, Dave. I'm afraid I can't do that");
+      results.push("glorb glorb");
+      // "I'm sorry, Dave. I'm afraid I can't do that"
     }
     else if (i.toString().includes("2")) {
       // console.log("Boop!")
@@ -29,8 +30,7 @@ $(document).ready(function () {
     var userInput = parseInt($("input#userInput").val());
     var output = beepBoop(userInput);
     // console.log(output)
-    output.forEach();
-      $("#resultsList").append(output);
+    $("#resultsList").append(output);
 
   });
 });
