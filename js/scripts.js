@@ -4,19 +4,15 @@ function beepBoop(userInput) {
   var results = []
   for (var i = 1; i <= userInput; i++)
     if (i.toString().includes("3")) {
-      // console.log("I'm sorry, Dave. I'm afraid I can't do that.")
       results.push("I'm sorry, Dave. I'm afraid I can't do that");
     }
     else if (i.toString().includes("2")) {
-      // console.log("Boop!")
       results.push("Boop!");
     }
     else if (i.toString().includes("1")) {
-      // console.log("Beep!")
       results.push("Beep!");
     }
     else {
-      // console.log("Your number is " + i)
       results.push(i);
     }
   return results;
@@ -28,8 +24,6 @@ results.forEach(function(item) {
 });
 return;
 }
-
-// Front-end
 
 $(document).ready(function () {
   $("#submitButton").click(function (event) {

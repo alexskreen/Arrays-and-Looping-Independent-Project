@@ -9,26 +9,29 @@
   <title>Beep Boop!</title>
 </head>
 
-<body>
+<body style="background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');">
   <div class="container">
-    <div class="row">
+    <div class="container">
       <h1>Beep Boop!</h1>
     </div>
-    <div class="row">
-      <div class="col-6 offset-3">
-        <form id="beepBoopForm">
-          <div class="form-group">
-            <label for="formGroupUserInput">Please enter a number</label>
-            <input type="number" class="item form-control" id="userInput" placeholder="Enter a number, won't you?">
-          </div>
-          <button class="btn btn-primary btn-lg btn-block" type="submit" id="submitButton">Add</button>
-        </form>
-        <div class="row">
-          <div class="col-6">
-            <div id="results">
-              <ul id="resultsList">
-
-              </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 offset-3">
+          <form id="beepBoopForm">
+            <div class="form-group well">
+              <h3>Welcome to Beep Boop! A fun game that gives you a result to decode!</h3>
+              <label id= "userInputText" for="formGroupUserInput">Please enter a number</label>
+              <input type="number" class="item form-control" id="userInput" placeholder="Enter a number, won't you?">
+            </div>
+            <button class="btn btn-dark btn-lg btn-block" type="submit" id="submitButton">Add</button>
+          </form>
+          <div class="row">
+            <div class="col-6">
+              <div id="results">
+                <ul id="resultsList">
+                  
+                </ul>
+              </div>
             </div>
           </div>
         </div>

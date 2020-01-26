@@ -3,5 +3,22 @@
 } */
 
 h1 {
-  text-align: right;
+  text-align: center;
+  color: bisque;
+}
+
+h3 {
+  color: aquamarine;
+}
+#resultsList {
+  color: bisque;
+}
+
+li {
+  color: antiquewhite;
+}
+
+#userInputText {
+  color: bisque;
+  font-weight: 300;
 }

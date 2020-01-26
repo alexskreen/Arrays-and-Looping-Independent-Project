@@ -9,8 +9,6 @@
 
 ## Setup/Installation Requirements
 
-* _Open web browser_
-* _Navigate to https://github.com/alexskreen/Arrays-and-Looping-Independent-Project_
 * _Click the green "clone or download" button_
 * _Open terminal_
 * _Navigate to desktop by typing "cd .." into terminal, then typing "cd desktop"_
