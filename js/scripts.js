@@ -1,5 +1,3 @@
-// Back-end
-
 function beepBoop(userInput) {
   var results = []
   for (var i = 1; i <= userInput; i++)
@@ -29,8 +27,6 @@ $(document).ready(function () {
   $("#submitButton").click(function (event) {
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
-    var outputs = beepBoop(userInput);
-    // $("#resultsList").text(outputs);
     displayResultList(beepBoop(userInput));
 });
 });
